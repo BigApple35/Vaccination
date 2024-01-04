@@ -1,0 +1,31 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.game-cont{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 100%;
+}
+
+input::placeholder{
+    color: white;
+}
+
+#pause-menu div:hover{
+    color: black;
+}
+
+tr, th, td{
+    border: 1px black solid;
+}
+
+td{
+    font-weight: normal;
+}
